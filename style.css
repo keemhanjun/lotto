@@ -1,0 +1,44 @@
+.subTop{
+    height: 150px;
+    border-bottom: 3px solid black;
+    display: flex;
+    align-items: center;
+}
+.title{
+    text-align: center ;
+    font-size: 2.5rem;
+    font-weight: bold;
+    width: 1200px;
+}
+.subLeft{
+    width: 200px;
+    height: 500px;
+    float: left;
+    border-right: 3px solid black;
+    display: flex;
+}
+.subRight{
+    display: inline-block;
+    width: 1000px;
+    height: 500px;
+}
+.button{
+    width: 100px;
+    height: 50px;
+    position: relative;
+    left: 430px;
+    top: 50px;
+}
+.circle-item{
+    position: relative;
+    left: 200px;
+    top: 150px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: #bbb;
+    display: inline-block;
+    text-align: center;
+    line-height: 90px;
+    font-size: 35px;
+}
